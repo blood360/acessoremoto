@@ -195,14 +195,12 @@ const RemoteDeviceAccess: React.FC = () => {
               <div className="botoes-container">
                 <button
                   onClick={startLocalStream}
-                  disabled={connectionStatus !== 'connected'}
                   className="botao-hacker-secundario"
                 >
                   Câmera/Microfone
                 </button>
                 <button
                   onClick={startScreenShare}
-                  disabled={connectionStatus !== 'connected'}
                   className="botao-hacker-secundario"
                 >
                   Compartilhar Tela
