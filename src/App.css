@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+/* Estilos para o fundo da página, coisa de hacker */
+body {
+  background-color: #0d1117; /* Fundo preto acinzentado */
+  color: #00ff00; /* Cor verde neon pra tudo */
+  font-family: 'Courier New', Courier, monospace; /* Fonte com cara de terminal */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Deixa o container principal com um visual escuro e um brilho verde */
+.container-hacker {
+  background-color: #161b22;
+  border: 1px solid #00ff00;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ff00;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilos para os títulos */
+.titulo-hacker {
+  color: #00ff00;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Deixa o input com cara de terminal de comando */
+.input-hacker {
+  background-color: #0d1117;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 0.5rem;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilos para os botões */
+.botao-hacker-primario {
+  background-color: #008000; /* Verde mais escuro */
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.botao-hacker-secundario {
+  background-color: #004d00; /* Verde mais discreto */
+  color: #00ff00;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #00ff00;
+}
+
+/* Estilos para o status de conexão */
+.status-hacker {
+  color: #2e7d32; /* Verde mais discreto para textos de ajuda */
+}
+
+/* Deixa o aspecto de vídeo mais escuro para combinar */
+.video-hacker {
+  background-color: #0d1117;
+  border: 1px solid #00ff00;
+  border-radius: 8px;
 }
